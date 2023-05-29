@@ -178,6 +178,7 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
     background: rgb(61, 23, 61);
+    
 }
 .home .max-width{
   width: 100%;
@@ -186,17 +187,22 @@ section .title::after{
 .home .max-width .row{
   margin-right: 0;
 }
+.home .home-content{
+margin-left: 15%;
+}
 .home .home-content .text-1{
-    font-size: 27px;
+    font-size: 35px;
+    padding-bottom: 2%;
 }
 .home .home-content .text-2{
-    font-size: 37px;
+    font-size: 45px;
     margin-left: -3px;
+    padding-bottom: 2%;
 }
 .home .home-content .text-3{
    
     margin: 5px 0;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 500;
     
 
