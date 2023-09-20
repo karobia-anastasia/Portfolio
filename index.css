@@ -36,7 +36,7 @@ align-items: center;
 
 .text {
 flex: 3;
-padding: 20px;
+padding: 0px;
 font-size: 26px; /* Adjust the font size as needed */
 }
 
@@ -72,4 +72,22 @@ width: 0;
 to {
 width: 100%;
 }
+}
+@media (max-width: 768px) {
+    .home-content {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .image {
+        display: none; /* Hide the image on small screens */
+    }
+
+    .text {
+        flex: none; /* Reset the text flex property to prevent it from taking up too much space */
+        padding: 20px;
+        font-size: 20px; /* Adjust the font size for smaller screens */
+        width: 90%; /* Set the text width to 90% */
+        margin: 0 auto; /* Center the text horizontally */
+    }
 }
