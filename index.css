@@ -27,67 +27,59 @@ h6{
          .home-content {
 color: #fff;
 }
-/* Add this CSS for the layout and animations */
 .home-content {
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .text {
-flex: 3;
-padding: 0px;
-font-size: 26px; /* Adjust the font size as needed */
+    flex: 3;
+    padding: 0px;
+    font-size: 26px;
 }
 
 .image {
-flex: 2.5;
-text-align: center;
-border-radius: 50%; /* Make the image round */
-overflow: hidden; /* Ensure the image stays within the rounded container */
+    flex: 2.5;
+    text-align: center;
+    border-radius: 50%; 
+    overflow: hidden; 
 }
 
-/* Style the image */
 .image img {
-max-width: 100%;
-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
-/* Typing animation for the text */
 .text h1, .text h2, .text h3 {
-overflow: hidden;
-white-space: nowrap;
-/* animation: typing 2s steps(40, end); */
+    overflow: hidden;
+    white-space: nowrap;
 }
 .text h1 {
-overflow: hidden;
-white-space: nowrap;
-animation: typing 5s steps(40, end);
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(40, end);
 }
 
-@keyframes typing {
-from {
-width: 0;
-}
-to {
-width: 100%;
-}
-}
 @media (max-width: 768px) {
     .home-content {
         flex-direction: column-reverse;
         text-align: center;
+        align-items: center;
+        height: auto;
     }
 
     .image {
-        display: none; /* Hide the image on small screens */
+        display: none; 
     }
 
     .text {
-        flex: none; /* Reset the text flex property to prevent it from taking up too much space */
-        padding: 20px;
-        font-size: 20px; /* Adjust the font size for smaller screens */
-        width: 90%; /* Set the text width to 90% */
-        margin: 0 auto; /* Center the text horizontally */
+        flex: none; 
+        padding: 0px;
+        font-size: 15px; 
+        width: 100%;
+        margin: 0 auto; 
+        text-align: left;
     }
 }
+
