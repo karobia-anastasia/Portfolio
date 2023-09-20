@@ -291,7 +291,7 @@ margin-left: 15%;
 .services .title::after,
 .teams .title::after{
     background: rgb(61, 23, 61);
-    content: "what I have built";
+    content: "what I've built";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
