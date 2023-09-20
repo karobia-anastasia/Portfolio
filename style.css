@@ -115,12 +115,13 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color:pink;
-    font-size: 18px;
+    color:palevioletred ;
+        font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
+
 .navbar .menu li a:hover{
     color: rgb(104, 43, 104) ;
     border-bottom: 3px solid rgb(104, 43, 104) ;
